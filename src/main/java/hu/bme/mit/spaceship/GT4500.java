@@ -34,7 +34,8 @@ public class GT4500 implements SpaceShip {
   * @return whether at least one torpedo was fired successfully
   */
   @Override
-  public boolean fireTorpedo(FiringMode firingMode) {
+  public boolean fireTorpedo(FiringMode firingMode) 
+  {
 
     boolean firingSuccess = false;
 
